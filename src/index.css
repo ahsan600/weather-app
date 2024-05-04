@@ -1,0 +1,170 @@
+body {
+  background: url("./assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10vh;
+  width: 60vw;
+  height: 80vh;
+  background-color: black;
+  opacity: 0.9; /* Background opacity */
+  border-radius: 20px;
+}
+
+.detail-title,
+.detail-para {
+  font-size: 10px;
+  color: white;
+  opacity: 1; /* Text opacity */
+}
+.detail-para {
+  font-size: 13px;
+}
+
+.card0 {
+  width: 90%;
+  height: 100vh;
+}
+img {
+  border: 0;
+}
+.card1 {
+  position: relative;
+  padding: 0%;
+  color: white;
+  width: 400px;
+  height: 650px;
+}
+.card2 {
+  color: white;
+  width: 400px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+
+  padding: 0%;
+}
+.card1 img {
+  height: 650px;
+  object-fit: cover;
+}
+.cloud i {
+  padding: 20px;
+  font-size: 90px;
+}
+button:hover {
+  transform: scale(1.2);
+}
+.cloud-title {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  text-align: center;
+}
+.hr {
+  /* border: 1px solid white; */
+  width: 300px;
+  opacity: 0.9;
+}
+.hr2 {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  opacity: 0.5;
+}
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.input-area i {
+  cursor: pointer;
+}
+.input {
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+  border-bottom: 1px solid white;
+  width: 150px;
+}
+button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+button:focus {
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+.temperature-text {
+  margin-top: 10px;
+  width: 250px;
+}
+.temperature-title,
+.temperature-value {
+  font-size: 12px;
+}
+.time-date {
+  width: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 20px;
+  left: 1px;
+  color: white;
+  font-size: 16px;
+}
+.city-country {
+  /* text-align: right; */
+  width: 350px;
+  position: absolute;
+  display: flex;
+  /* justify-content: flex-end; */
+  top: 20px;
+  left: 0;
+  color: white;
+  font-size: 16px;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.resultNotFound {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 300px;
+  height: 30px;
+}
