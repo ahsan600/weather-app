@@ -12,7 +12,7 @@ function CheckWeatherState(props) {
       `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=8127745bac049df1cf72ef6de2cb1d59&units=metric`
     );
     const parseWeather = await fetchWeather.json();
-    console.log(parseWeather);
+
     if (parseWeather.cod !== "404") {
       setFindLocationWeatherData(parseWeather);
       setResultFind(false);
@@ -36,7 +36,7 @@ function CheckWeatherState(props) {
       `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=8127745bac049df1cf72ef6de2cb1d59&units=metric`
     );
     const parseWeather = await fetchWeather.json();
-    console.log(parseWeather);
+
     setLocationWeatherData(parseWeather);
     setFindLocationWeatherData(parseWeather);
     setTimeout(() => {
